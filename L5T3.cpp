@@ -17,6 +17,8 @@ int main() {
     cin >> b;
     cin >> c;
 
+    if ( a < 1 || b < 1 || c < 1) return 1;
+
     cout << "Сумма двух: " << notes(a, b) << endl;
     cout << "Сумма трех: " << notes(a, b, c);
 
