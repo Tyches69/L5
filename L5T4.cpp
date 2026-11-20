@@ -12,6 +12,8 @@ int main() {
     cin >> room;
     cin >> floor;
 
+    if (room < 1 || floor < 1) return 1;
+
     showRoom(room);
     showRoom(room, floor);
 
