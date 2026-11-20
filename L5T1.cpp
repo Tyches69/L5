@@ -12,6 +12,8 @@ int main() {
     cin >> d;
     cin >> m;
 
+    if (d < 1 || m < 1) return 1;
+
     int total = practiceTime(m, d);
     cout << "Общее время занятий: " << total << " минут";
 
