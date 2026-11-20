@@ -11,6 +11,8 @@ int main() {
     int lessons{};
     cin >> lessons;
 
+     if (lessons < 0) return 1;
+
     addLesson(lessons);
     cout << "Количество занятий: " << lessons;
 
