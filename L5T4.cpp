@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void showRoom(int room, int floor) {
+void showRoom(int room, int floor = 1) {
     cout << "Класс: " << room << ", Этаж: " << floor << endl;
 }
 
@@ -12,7 +12,7 @@ int main() {
     cin >> room;
     cin >> floor;
 
-    showRoom(room, 1);
+    showRoom(room);
     showRoom(room, floor);
 
     return 0;
